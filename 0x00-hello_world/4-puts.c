@@ -5,8 +5,9 @@
  *
  * Description: printing statment with puts function
  *
- * Return: 0 ==> (success)
+ * Return: always  0 ==> (success)
 */
+
 
 int main(void)
 {
