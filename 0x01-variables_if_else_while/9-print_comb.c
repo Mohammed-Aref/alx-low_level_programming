@@ -9,16 +9,20 @@
 
 int main(void)
 {
-	int i = 48, j = 44, nine = 57, space = 32;
+	int i = 48, comma = 44, line = 10, space = 32;
 
-	while (i < 57)
+	for (i = 48 ; i <= 57 ; i++)
 	{
 		putchar(i);
-		putchar(j);
-		putchar(space);
-		i++;
+		if (i == 57)
+			break;
+		else
+		{
+			putchar(comma);
+			putchar(space);
+		}
 	}
-	putchar(nine);
+	putchar(line);
 	return (0);
 
 }
