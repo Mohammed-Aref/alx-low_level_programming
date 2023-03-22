@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * printing alphabets using prototype with putchar
- * from a - z
+ *Description: printing alphabets using prototype with putchar from a - z
 */
-
 void print_alphabet(void)
 {
 	int ch;
