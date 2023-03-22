@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Description: C programm prints alphabet using prototype
- * Return: Always 0 sucess)
+ * printing alphabets using prototype with putchar
+ * from a - z
 */
 
-int main(void)
+void print_alphabet(void)
 {
 	int ch;
 
@@ -15,6 +14,4 @@ int main(void)
 		_putchar(ch);
 	}
 	_putchar('\n');
-
-	return (0);
 }
